@@ -1,13 +1,14 @@
 # Meteorite Landings — Interactive Data Visualisation
 
-An interactive R Shiny dashboard exploring 45,716 meteorite landing records from NASA's Open Data Portal. Built for Data9005 
-(Data Visualisation) as part of the MSc in Data Science & Analytics, MTU Cork, 2025/26.
+An interactive R Shiny dashboard exploring 45,716 meteorite landing records from NASA's Open Data Portal.
+
+Built for Data9005 (Data Visualisation) as part of the MSc in Data Science & Analytics, MTU Cork, 2025/26.
 
 ---
 
 ## The Question
 
-> Are meteorites actually falling more in populated areas? Or are we just better at finding them there?
+> Are meteorites actually falling more in populated areas — or are we just better at finding them there?
 
 This project uses geospatial mapping, missing data analysis, and time-series visualisation to answer that, and a few other questions buried in the data.
 
@@ -44,7 +45,7 @@ The Shiny app has six tabs:
 ## Key Findings
 
 **Where meteorites land vs where they're found are different questions.**
-The geospatial map shows that meteorites fall more towards populated areas like the United States of America. The maps cluster heavily around California, Arizona, and other populated regions, but 97.6% of all records are meteorites that were *found*, not witnessed. Population density doesn't attract meteorites; it just means more people around to find them.
+The maps cluster heavily around California, Arizona, and other populated regions — but 97.6% of all records are meteorites that were *found*, not witnessed. Population density doesn't attract meteorites; it just means more people around to find them.
 
 **The discovery spike in the 1980s has a specific cause.**
 Discoveries were flat for decades, then surged from the late 1970s onward. That traces directly to the ANSMET programme (Antarctic Search for Meteorites), funded from 1976–77, which has recovered over 20,000 meteorites since. The witnessed category barely moved across the same period.
@@ -104,7 +105,7 @@ install.packages(
 ## Data Source
 
 NASA Open Data Portal — Meteorite Landings  
-https://data.nasa.gov/Space-Science/Meteorite-Landings/gh4g-9sfh
+https://data.nasa.gov/dataset/meteorite-landings/resource/cca1a1f1-0039-44b1-a59b-9e2a9a5ca0c7
 
 ---
 
