@@ -1,4 +1,4 @@
-# Meteorite Landings — Interactive Data Visualisation
+# Meteorite Landings: Interactive Data Visualisation
 
 An interactive R Shiny dashboard exploring 45,716 meteorite landing records from NASA's Open Data Portal.
 
